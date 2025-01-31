@@ -1,0 +1,564 @@
+
+  /* contact us page start here*/
+  .contact_container {
+    width: 100%; 
+     min-height: 700px; 
+     background: linear-gradient(to right, rgba(240, 244, 244, 0.703), rgba(240, 244, 244, 0.703)); 
+    /* background: linear-gradient(to right, rgba(233, 241, 241, 0.703), rgba(240, 244, 244, 0.703)); */
+    box-sizing: border-box;
+     overflow-x: hidden; 
+  
+  }
+/* send us message conatiner left side */
+.left-conatiner {
+  height: 650px;
+  max-width: 690px;
+  border: 1.20px solid rgb(226, 233, 233);
+  border-radius: 15px;
+  padding: 2vh;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="message"] {
+  background: #f6f6f8;
+}
+
+.sendmessage h2 {
+  /* color: rgba(0, 0, 0, 0.991); */
+  font-weight: 700;
+  color: #0c111d;
+}
+
+.sendmessage p {
+  color: rgba(0, 0, 0, 0.721);
+  /* color: red; */
+}
+
+/* Button styles */
+.btn-warning {
+  color: black;
+  font-size: 30px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-warning:hover {
+  color: white !important;
+  background: #3d0bf4 !important;
+  outline: none;
+  box-shadow: none;
+}
+/* For the message textarea */
+#messageInput {
+  width: 98%;
+  padding: 15px 20px;
+  background-color: #f6f6f8;
+  box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+/* For the send button */
+#send_usa_message{
+  width: 95.40%;
+  color: black;
+  font-weight: bolder;
+  padding:3.1vh !important;
+  font-size:1.30rem !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: -5px; 
+  box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+
+
+/* No shadow on input focus */
+.input-no-focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* on foucus doning outline none */
+.input-no-focus:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1.3px solid #3d0bf4;
+}
+
+/* all labels color and style */
+label {
+  color: #1e0141;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+/* Right container (Sidebar) contact info */
+
+/* Existing .col-lg-4 code remains unchanged */
+.col-lg-4 {
+  position: absolute;
+  top: 72% !important;
+  padding: 1vh;
+  left: auto; /* Remove left positioning */
+  right: 9.50vh; /* Move it to the right with 40vh */
+  border: 1.20px solid rgb(226, 233, 233);
+  border-radius: 15px;
+  /* height: 655px !important; */
+}
+
+
+
+/* Contact info page */
+.contact-info {
+  color: rgba(0, 0, 0, 0.824);
+  font-size: 2rem;
+
+}
+
+/* tircular icon */
+.xb-item--hotline {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.817);
+  margin-right:5px;
+  
+  /* color: rebeccapurple; */
+}
+/* tircular  icon */
+.xb-item--hotline i {
+  color: #3d0bf4;
+  font-size: 1.3rem;
+  
+}
+/* change color united state office same color apply all three */
+.xb-title{
+  color:#111112;
+  font-size: 1.3rem; 
+ 
+ 
+ 
+}
+.xb-location{
+  color:rgba(0, 0, 0, 0.605);
+  font-size: 1rem; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+
+}
+/* Email content */
+.xb-item--email {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.817);
+ 
+ 
+
+}
+
+/* email icon */
+.xb-item--email i {
+  color: #3d0bf470;
+  font-size: 1.2rem;
+ color :#381de2;
+ 
+}
+
+/* Social media icons */
+.social_media_icon {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  
+}
+/* social media icons coding */
+.social_media_icon li {
+  border: 1px solid #a1a2b1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_media_icon li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+ 
+}
+/* hover on icons color social media icons color changes */
+
+.social_media_icon li:hover,
+.social_media_icon li:hover a {
+  background-color: #222fe8; /* Background color on hover */
+  color: white; /* Text color change on hover */
+  
+}
+
+/* map coding start here */
+.gmap_canvas {
+  width: 100%;
+  position: relative;
+  height: 700px; /* Fixed height for larger screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure proper positioning */
+  box-sizing: border-box; /* Include padding/border in width/height */
+}
+.gmap_canvas iframe {
+  width: 100%; /* Full width of parent container */
+  height: 100%; 
+  border: none; /* Remove border for a clean look */
+}
+
+/* full width map 100 */
+
+/* end map coding */
+
+/* Main container styling */
+.seo-container {
+  position: relative; 
+  top: -28vh; 
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0056d6; /* Background color */
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 2vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  height: auto; 
+  min-height: 400px; 
+}
+
+/* Font size and width */
+.font-width {
+  font-size: 3rem;
+  width: 95%;
+  position: relative;
+  left: -3vh;
+}
+
+/* Content styling */
+.seo-content {
+  flex: 1; 
+  max-width: 50%; 
+  text-align: left;
+  margin-left: 2vh; /* Shift content 2vh from left */
+  box-sizing: border-box;
+}
+
+.seo-content h2 {
+  font-size: 2rem; /* Adjust font size based on responsiveness */
+  font-weight: bold;
+  margin-bottom: 10px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  text-overflow: ellipsis; 
+  white-space: normal; 
+  max-width: 100%; 
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.seo-content p {
+  /* font-size: 1rem; */
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem); /* Min: 0.9rem, Preferred: 2.5vw, Max: 1.2rem */
+  margin-bottom: 20px;
+}
+
+.seo-content button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive button styling */
+#responsive-btn {
+  font-size: calc(1rem + 0.5vw);
+  padding: 19px 35px !important;
+}
+
+/* Image container styling */
+.seo-image {
+  flex: 1; /* Take available space */
+  max-width: 50%; /* Max width for image */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.seo-image img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* move up to down image css */
+  @keyframes moveTopToBottom {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(5px); /* Move 10px down */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+
+  /* Apply animation only to the specific class */
+  .seo-animate {
+    animation: moveTopToBottom 2s infinite ease-in-out;
+  }
+/* Button: Book a free consultation */
+
+.responsive-btn:hover {
+  background-color: white !important; 
+  color: black !important; 
+}
+
+/* end coding stop wasting */
+
+
+
+/* contacts footer part start here  */
+.contact-section {
+  width:100%;
+  position: absolute; /* ya relative, depending on parent */
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Centers the items vertically */
+  background-color: #000; /* Black background */
+  padding: 35px;
+  border-radius:3px;
+  color: white;
+  position: relative;
+  z-index: 1; 
+  height: 220px;
+  top: -28vh; 
+  overflow: hidden; 
+}
+
+.contact-info h3, 
+.contact-info p {
+  color: white; /* Ensures text is white on a dark background */
+  visibility: visible; /* Ensures the text is displayed */
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the icons are centered */
+  text-align: center;
+  margin: 10px;
+  max-width: 100%; /* Ensures it fills available space */
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding and margin don't affect width */
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Circular shape */
+  margin-right: 15px;
+  font-size: 1.5rem; /* Icon size */
+  background-color: #333; 
+  color: white;
+}
+
+.icon.blue {
+  background-color: #0056ff; /* Blue background */
+  color: white;
+}
+
+.icon.green {
+  background-color: #02c39a; /* Green background */
+  color: white;
+}
+
+.icon.orange {
+  background-color: #FF8139; /* Orange background */
+}
+
+.contact-info h4 {
+  font-size: 1rem;
+  color: #d2dbef;
+  position: relative;
+  top: 7px; /* Sirf h4 neeche hoga */
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  color:#fff;
+}
+
+.card-container {
+  position: relative;
+  width: calc(100% - 10px);  
+ left: 3px;  
+  margin-left:0px;
+  min-height: 50px;  /* Ensure minimum height */
+  background: linear-gradient(to right, rgba(240, 244, 244, 0.703), rgba(240, 244, 244, 0.703)); 
+  background-size: cover;  /* Ensure background covers entire container */
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;  
+  overflow: hidden;  
+}
+/* Container for all the cards */
+.container {
+  overflow-x: auto;  /* Allow horizontal scrolling for small devices */
+}
+
+.all-card-container {
+  display: flex;
+  flex-wrap: wrap;  /* Allow cards to wrap to the next line */
+  justify-content: space-between;  /* Spacing between the cards */
+  gap: 10px;  /* Add space between cards */
+  margin-bottom: 20px;
+  margin-top: 11px;
+}
+
+.card {
+  flex: 1 1 30%;  /* Cards take up 30% of the container space */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 48%;  /* Adjust to 48% for medium devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex: 1 1 100%;  /* Cards take up full width on small screens */
+  }
+}
+/* cart gmail styling */
+
+.email-container {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Icon aur text ke beech space */
+}
+
+.email-container img {
+  width: 25px;
+  height: auto;
+}
+
+.email-container a {
+  color:#000000ba; /* Default black color */
+  text-decoration: none; /* Underline hatana */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.email-container a:hover {
+   color: rgba(0, 0, 0, 0.7);; /* Slightly darker black on hover */
+}
+
+@media (max-width: 576px) {
+  .email-container {
+    gap: 4px; /* Chhoti screens ke liye spacing adjust */
+  }
+  .email-container a {
+    font-size: 14px; /* Small screens par thoda chhota text */
+  }
+}
+/* Apply shadow to all cards */
+.card.cart-shadow {
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.566); /* White shadow with slight transparency */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.cart-shadow:hover {
+  transform: translateY(0.5px); /* Slight upward shift */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.card-title{
+  color:#000000bd;
+  font-size: 1.4rem;
+}
+.card-text{
+  font-size: 1.1rem;
+  color: #555;
+}
+/* end gmail styling */
+
+/* heding connect our team */
+.cart-title-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  padding: 17px 24px;
+  width: calc(100% - 8vh); /* Left & Right se 4vh space remove */
+  margin: 20px auto; /* Center align */
+  border-radius: 8px;
+  border: 0.5px solid #acbdce; /* Professional Blue Border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft Shadow for depth */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect on whole box */
+.cart-title-heading:hover {
+  background-color: #f1f1f1; /* Light grey on hover */
+  border-color: #0056b3; /* Darker Blue */
+  transform: translateY(0.5px); /* Subtle lift effect */
+}
+
+/* Heading Styling */
+.cart-title-heading h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0073e6f6; /* Default color */
+  /* text-transform: uppercase; */
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Change text color when hovering over .cart-title-heading */
+.cart-title-heading:hover h1 {
+  color: #0056b3; /* Change text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-title-heading {
+    width: calc(100% - 6vh); /* Mobile screens par thoda adjust */
+    padding: 12px 15px;
+  }
+  .cart-title-heading h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart-title-heading {
+    width: calc(100% - 4vh); /* Chhoti screens par aur adjust */
+    padding: 10px 12px;
+  }
+  .cart-title-heading h1 {
+    font-size: 1.4rem;
+  }
+}
+
+
+
+
+
+
+
+

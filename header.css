@@ -1,0 +1,53 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to left, rgba(217, 239, 239, 0.655), white);
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.top-container {
+  width: calc(100% -6px);
+  left: 1px;
+  min-height: 68vh; /* Minimum height */
+  margin-bottom:25px !important;
+  padding: 20px;
+  margin-left: 2px;
+  /* background: linear-gradient(to bottom, #dde7dd, #ffffff); हल्का green से white तक */
+}
+
+/* Sub-title and icon styling */
+.sub-title {
+  font-size: 1.2rem;
+  color: hsl(222, 41%, 8%);
+  font-weight: bold;
+}
+
+.image-headphone {
+  width: 30px; /* Small size for the icon */
+  height: auto;
+  filter: sepia(100%) saturate(700%) hue-rotate(210deg); /* Styled color */
+}
+
+
+/* Title Styling */
+.title {
+  font-size: 2.2rem !important;
+  position: relative;
+  color: #0c111d;
+  margin-top: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  max-width: 50%; 
+  line-height: 1.1; 
+}
+
+/* Right Image Styling */
+.sd-right-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
