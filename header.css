@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: linear-gradient(to left, rgba(217, 239, 239, 0.655), white);
+  background: linear-gradient(to left, rgba(217, 239, 239, 0.655), rgba(201, 230, 230, 0.655));
   font-family: 'Inter', sans-serif;
   
 }
