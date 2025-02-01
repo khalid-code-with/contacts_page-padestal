@@ -1,0 +1,359 @@
+/* header part css */
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 2.2rem;
+    max-width: 58%; 
+    
+  }
+}
+
+/* Media query for devices between 768px and 1024px */
+@media screen and (max-width: 924px) {
+  .title {
+    font-size: 2.4rem !important;
+    max-width: 80%; 
+  
+  }
+}
+
+/* Media query for devices between 576px and 768px */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 27px !important;
+    max-width: 68%;
+   
+  }
+}
+
+
+
+/* Media query for small devices (less than 576px) */
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 27px !important;
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 24px;
+    max-width: 96%;
+  }
+}
+
+
+/* media query for image */
+@media (max-width: 1024px) {
+  .sd-right-img {
+    margin-top: 20px;
+  }
+
+  .sd-right-img img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sd-right-img img {
+    max-width: 70%;
+  }
+
+  .image-headphone {
+    width: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sd-right-img {
+    margin-top: 15px;
+  }
+
+  .sd-right-img img {
+    max-width: 90%;
+  }
+}
+/* end header part media query */
+    /* form page start send message  */
+    @media (max-width: 1200px) {
+      .contact_container {
+        width: 99%; /* Slightly reduce width for better fit on smaller screens */
+        /* margin: 0 auto; Keep it centered */
+        margin-left:5px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .contact_container {
+        width: 98%;
+        margin-left: 10px; /* Adjust width for tablets */
+        /* margin: 0 auto; Maintain center alignment */
+      }
+    }
+    
+    @media (max-width: 400px) {
+      .contact_container {
+        width: 97%;
+        margin-left: 2px; /* Further reduce width for small devices */
+        /* margin: 0 auto; Ensure it's centered */
+      }
+    }
+    
+
+    /*  */
+    @media (max-width: 1200px) {
+      #send_usa_message {
+       
+      }
+    }
+    #phoneInput{
+      width: 97.50%;
+    
+    }
+  @media (max-width: 400px) {
+    #phoneInput {
+      width: 95.70% !important;
+      /* background-color: red; */
+    }
+    #messageInput{
+      width: 96.70% !important;
+    }
+    #send_usa_message{
+      width: 94.60%;
+    }
+  }
+
+  /* move the right container from top */
+@media (max-width: 1200px) {
+    .col-lg-4{
+     position: absolute;
+     top:1vh;
+     margin: 20px;
+    }
+  }
+
+  
+/* in small devices mai top se 20px */
+@media (max-width: 950px) { /* Small screens ke liye */
+    .custom-margin {
+      margin-top: 45px !important; /* Ensure higher priority */
+    }
+  }
+  /*  */
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1200px) {
+    .col-lg-4 {
+      margin-left: 50%;
+      height: auto;
+      top: 85%;
+    }
+    .left-conatiner {
+      margin-left: 0;
+    }
+  }
+  /* top se bottom 20px ki or */
+  @media (max-width: 1200px) {
+    .col-lg-4{ 
+      padding-top: 20px; /* Prevent margin collapse */
+    }
+  }
+
+  
+  @media (max-width: 992px) {
+    .col-lg-4 {
+      margin-left:0%;
+      top: auto;
+      left: 0% !important;
+      position: relative;
+      width: 100%;
+    }
+  
+    .left-conatiner {
+      margin-left: 0;
+      height: auto;
+    }
+  }
+  /* social media icons apply media query */
+  @media (max-width: 768px) {
+    .social_media_icon {
+      gap: 8px;
+    }
+  
+    .contact-info {
+      font-size: 1.5rem;
+    }
+  
+    .btn-warning {
+      font-size: 20px;
+    }
+  }
+  /* right container apply media query */
+  @media (max-width: 576px) {
+    .col-lg-4 {
+      margin-left: 0;
+      top: auto;
+      position: relative;
+      width: 100%;
+    }
+  
+    .sendmessage h2,
+    .sendmessage p {
+      text-align: center;
+    }
+  
+    .btn-warning {
+      font-size: 18px;
+    }
+  
+    .social_media_icon li {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .contact-info {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .gmap_canvas {
+      height: 400px; 
+      width:99%;/* Adjust height for tablets */
+    }
+  }
+  @media (max-width: 768px) {
+    .gmap_canvas {
+     right: -2px;
+      width:98%;/* Adjust height for tablets */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .gmap_canvas {
+      /* Adjust height for very small devices */
+      padding: 0 5px; 
+      width: 97%;/* Add slight horizontal padding for better fit */
+    }
+  }
+  
+
+  
+/* Media queries  for stop ending power*/
+@media (max-width: 1200px) {
+  .seo-container {
+    margin-top: 10vh; /* Add gap between this container and the one above */
+  }
+}
+
+@media (max-width: 768px) {
+  .seo-container {
+    flex-direction: column; /* Stack content vertically */
+    height: auto; /* Ensure height adjusts to content */
+  }
+
+  .seo-content, .seo-image {
+    max-width: 100%; /* Full width for both sections */
+  }
+
+  .seo-content {
+    margin-left: 0; /* Remove extra left margin */
+    text-align: center; /* Center-align content on smaller screens */
+  }
+
+  .seo-content h2 {
+    font-size: 1.5rem; /* Adjust heading size for small screens */
+  }
+
+  .seo-content p {
+    font-size: 1rem; /* Adjust paragraph size */
+  }
+
+  .seo-content button {
+    width: 70%; /* Make button smaller */
+  }
+
+  .seo-image img {
+    max-width: 80%; /* Reduce image size for smaller screens */
+  }
+
+  #responsive-btn {
+    font-size: calc(1.1rem + 0.5vw);
+  }
+}
+
+@media (max-width: 480px) {
+  .seo-content h2 {
+    font-size: 1.2rem; /* Adjust heading size */
+    margin-right: 0;
+  }
+
+  .seo-content p {
+    font-size: 0.9rem; /* Further adjust paragraph size */
+  }
+
+  .seo-content button {
+    width: 90%; /* Full-width button for mobile */
+    padding: 1.5rem; /* Larger padding for better UX */
+  }
+
+  .seo-image img {
+    max-width: 100%; /* Full width for mobile */
+  }
+}
+
+@media (max-width: 150px) {
+  .seo-content h2 {
+    font-size: 0.8rem; /* Adjust font size for very small screens */
+  
+  }
+}
+
+
+/*  for responsive move to to down this container*/
+@media (max-width: 768px) {
+    .contact-margin {
+      margin-top: 10px !important; /* Apply margin with !important */
+      margin-left: 1vh;
+  
+    }
+  
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column; /* Stacks icons in a column on smaller screens */
+      justify-content: center; /* Centers the icons */
+      width: 99.70%;
+    }
+  
+    .contact-card {
+      flex-direction: column; /* Stack the icons vertically inside the card */
+      align-items: center;
+      justify-content: center; /* Centers icons inside the card */
+      margin: 10px 0; /* Adjusts the margin for spacing */
+    }
+  
+    .icon {
+      margin: 10px 0; /* Adjust space between icons in column layout */
+    }
+  
+    .contact-section {
+      padding: 20px;
+      /* margin-top: -15px; Adjusts for smaller screens */
+      height: auto; /* Adjust height dynamically */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-section {
+      flex-direction: column; /* Stacks icons in a column on mobile */
+      justify-content: center; /* Centers the icons */
+      padding: 15px;
+      position: relative;
+      left: -5.40px;
+      margin-bottom:175px; /* Adjusts for smaller mobile screens */
+      width: 99.35%;
+    }
+  }
